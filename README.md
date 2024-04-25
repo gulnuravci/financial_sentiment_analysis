@@ -1,1 +1,1 @@
-# financial_sentiment_analysis
+# reddit_sentiment_analysis
