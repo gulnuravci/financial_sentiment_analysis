@@ -1,0 +1,10 @@
+Sentiment analysis using distilbert with neutral
+2024-05-08 01:39:27
+----------------------------
+
+Model: lxyuan/distilbert-base-multilingual-cased-sentiments-student
+Average sentiments per parent company = {'Apple': 0.02989300881037396, 'Microsoft': -0.015184586402506977, 'Alphabet': -0.03742125782334853, 'Amazon': 0.015697744245213235, 'Nvidia': 0.00022476754409319412, 'Tesla': -0.08907833982091441, 'Meta': 0.1363168491307826}
+Interactions per parent company = defaultdict(<class 'int'>, {'Apple': 55040.62999999997, 'Microsoft': 106983.30000000002, 'Alphabet': 51219.59999999998, 'Amazon': 53432.129999999976, 'Nvidia': 102716.11000000004, 'Tesla': 86765.07999999997, 'Meta': 79531.52000000003})
+Positive sentiments per parent company = defaultdict(<class 'int'>, {'Apple': 487, 'Microsoft': 663, 'Alphabet': 277, 'Amazon': 517, 'Nvidia': 832, 'Tesla': 447, 'Meta': 420})
+Negative sentiments per parent company = defaultdict(<class 'int'>, {'Apple': 507, 'Microsoft': 764, 'Alphabet': 356, 'Amazon': 534, 'Nvidia': 906, 'Tesla': 664, 'Meta': 325})
+Neutral sentiments per parent company = defaultdict(<class 'int'>, {'Apple': 106, 'Microsoft': 138, 'Alphabet': 66, 'Amazon': 90, 'Nvidia': 163, 'Tesla': 71, 'Meta': 38})

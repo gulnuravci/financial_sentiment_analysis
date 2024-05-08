@@ -1,0 +1,8 @@
+Parent Company,Average Sentiment,Interactions,Positive Sentiments,Negative Sentiments,Neutral Sentiments
+Apple,0.03,55040.63,487,507,106
+Microsoft,-0.015,106983.3,663,764,138
+Alphabet,-0.037,51219.6,277,356,66
+Amazon,0.016,53432.13,517,534,90
+Nvidia,0.0,102716.11,832,906,163
+Tesla,-0.089,86765.08,447,664,71
+Meta,0.136,79531.52,420,325,38

@@ -1,0 +1,10 @@
+Sentiment analysis using finbert
+2024-05-07 23:46:02
+----------------------------
+
+Model: ProsusAI/finbert
+Average sentiments per parent company = {'Apple': -0.03997022301043706, 'Microsoft': -0.03690894008198013, 'Alphabet': -0.042108649604943184, 'Amazon': -0.04497552522835559, 'Nvidia': -0.01171595935377834, 'Tesla': -0.08132958600670832, 'Meta': -0.009949445478302465}
+Interactions per parent company = defaultdict(<class 'int'>, {'Apple': 55040.62999999997, 'Microsoft': 106983.30000000002, 'Alphabet': 51219.59999999998, 'Amazon': 53432.129999999976, 'Nvidia': 102716.11000000004, 'Tesla': 86765.07999999997, 'Meta': 79531.52000000003})
+Positive sentiments per parent company = defaultdict(<class 'int'>, {'Apple': 22, 'Microsoft': 36, 'Alphabet': 14, 'Amazon': 14, 'Nvidia': 62, 'Tesla': 40, 'Meta': 25})
+Negative sentiments per parent company = defaultdict(<class 'int'>, {'Apple': 107, 'Microsoft': 139, 'Alphabet': 75, 'Amazon': 112, 'Nvidia': 133, 'Tesla': 183, 'Meta': 41})
+Neutral sentiments per parent company = defaultdict(<class 'int'>, {'Apple': 971, 'Microsoft': 1390, 'Alphabet': 610, 'Amazon': 1015, 'Nvidia': 1706, 'Tesla': 959, 'Meta': 717})

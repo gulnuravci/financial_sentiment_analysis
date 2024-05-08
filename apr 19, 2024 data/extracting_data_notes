@@ -1,0 +1,35 @@
+Extracting Data Notes
+2024-04-19 22:59:17
+----------------------------
+magnificent_seven = [['Apple', 'Apple'], ['Microsoft', 'Microsoft'], ['Alphabet', 'Alphabet'], ['Google', 'Alphabet'], ['YouTube', 'Alphabet'], ['Waze', 'Alphabet'], ['Amazon', 'Amazon'], ['Nvidia', 'Nvidia'], ['Tesla', 'Tesla'], ['Facebook', 'Meta'], ['Instagram', 'Meta'], ['WhatsApp', 'Meta'], ['Oculus', 'Meta']]
+
+Keywords:
+Apple = ['Apple', 'MacBook Air', 'MacBook Pro', 'iMac', 'Mac mini', 'Mac Studio', 'Mac Pro', 'iPad Pro', 'iPad Air', 'iPad', 'iPad mini', 'Apple Pencil', 'iPhone 15', 'iPhone 14', 'iPhone 13', 'iPhone SE', 'Apple Watch Series 9', 'Apple Watch Ultra 2', 'Apple Watch SE', 'Apple Watch Nike', 'Apple Watch Hérmes', 'Apple Vision Pro', 'AirPods Pro', 'AirPods Max', 'Apple TV', 'HomePod', 'Apple One', 'Apple TV+', 'Apple Music', 'Apple Arcade', 'Apple Fitness+', 'Apple News+', 'Apple Podcasts', 'Apple Books', 'App Store', 'AppleCare+', 'iCloud', 'iTunes', 'Siri', 'iOS', 'iPadOS', 'macOS', 'tvOS', 'visionOS', 'watchOS', 'Swift', 'SwiftUI', 'SwiftPlaygrounds', 'TestFlight', 'Xcode', 'Xcode Cloud', 'SF Symbols', 'AAPL']
+Microsoft = ['Microsoft', 'Access', 'Accessibility', 'Account', 'Clipchamp', 'Cortana', 'Defender', 'Delve', 'Education', 'Excel', 'Family', 'Forms', 'Internet Explorer', 'Microsoft 365', 'Microsoft Office', 'Microsoft Advertising', 'Microsoft Copilot', 'Microsoft Edge', 'Microsoft Lens', 'Microsoft Lists', 'Microsoft Loop', 'Microsoft Start', 'Microsoft Store', 'Microsoft Stream', 'Microsoft Syntex', 'Microsoft Teams', 'Microsoft Viva', 'Microsoft Azure', 'Microsoft SQL ServerOneDrive', 'OneNote', 'Outlook', 'Phone Link', 'Planner', 'PowerPoint', 'Project', 'Publisher', 'Security', 'SharePoint', 'Skype', 'Surface', 'Sway', 'SwiftKey', 'To Do', 'Visio', 'Whiteboard', 'Windows', 'Word', 'Xbox', 'Yammer', 'Surface', 'Surface Pro', 'Surface Go 3', 'Surface Laptop', 'Visual Studio', 'HololensMSFT']
+Alphabet = ['Google', 'Android', 'Android Auto', 'Android TV', 'Calendar', 'Chrome', 'Chromebook', 'Chromecast', 'Contacts', 'Docs', 'Drawings', 'Drive', 'Earth', 'Family Link', 'Finance', 'Forms', 'Gemini', 'Gmail', 'Google Assistant', 'Google Chat', 'Google Classroom', 'Google Fit', 'Google Flights', 'Google Groups', 'Google Home', 'Google Maps', 'Google Meet', 'Google One', 'Google Pay', 'Google Photos', 'Google Play', 'Google Store', 'Google Shopping', 'Google TV', 'Google Wallet', 'Google Workspace', 'Google Ads', 'Google Analytics', 'AdWords', 'Lens', 'Nest', 'News', 'Pixel', 'Pixel Buds', 'Pixelbook Go', 'Scholar', 'Search', 'Sheets', 'Sites', 'Slides', 'Translate', 'Travel', 'Waze', 'YouTube', 'YouTube Kids', 'YouTube Music', 'YouTube TV', 'GOOG']
+Amazon = ['Amazon', 'Amazon Web Services', 'AWS', 'Prime', 'Music', 'Alexa', 'Echo', 'Amazon Drive', 'Kindle', 'Fresh', 'FireTV', 'Whole Foods', 'Amazon Go', 'Ring', 'Jeff Bezos', 'AMZN']
+Nvidia = ['Data Center GPUs', 'DGX', 'EGX', 'HGX', 'Grace CPU', 'Grace Hopper', 'BlueField DPU', 'SuperNICs', 'OVS', 'AI Enterprise', 'NGC', 'Virtual GPU', 'vGPU', 'H200', 'H100', 'L4', 'L40S', 'L40', 'A100', 'A2', 'A10', 'A16', 'A30', 'A40', 'Base Command', 'CUDA-X', 'Fleet Command', 'Hopper', 'Ada Lovelace', 'Ampere', 'NVLink-C2C', 'NVLink', 'NVSwitch', 'Tensor Cores', 'Morpheus', 'Accelerated Computing', 'Cloud Computing', 'Colocation', 'Edge Computing', 'High Performance Computing', 'Networking', 'Virtualization', 'MLOps', 'Chips', 'AI', 'CUDA', 'GPU', 'GeForce', 'RTX', 'Ray Tracing', 'G-Sync', 'NVDA']
+Tesla = ['Tesla', 'Model S', 'Model 3', 'Model X', 'Model Y', 'Cybertruck', 'Solar Panels', 'Solar Roof', 'Powerwall', 'Megapack', 'Charging', 'Home Charging', 'Supercharging', 'Supercharger', 'PyTorch', 'Self-Driving', 'Elon Musk', 'Autopilot', 'EV', 'Electric Vehicle', 'Battery Energy', 'TSLA']
+Meta = ['Facebook', 'Instagram', 'WhatsApp', 'Oculus', 'Meta', 'Mark Zuckerberg', 'Meta Quest', 'Reality Labs', 'Horizon Workrooms', 'MetaVerse', 'META']
+
+Num subreddits without keywords filter: 1253
+Num subreddits with keywords filter: 536
+Minimum number of keywords needed to be included in subreddit description: 1
+
+Total subreddits that ran through the model: 536
+Total subreddits that were marked with being technology related: 408
+
+Failed subreddits = ['apple_news', 'AppleWatchApps', 'AppleWatches', 'AppleIPTV', 'Microsoft_Build', 'MicrosoftInsiders', 'TechNewsToday', 'AmazonTopRated', 'AmazonWebServices', 'GauGAN', 'TeslaMasterrace', 'OculusMods', 'OculusNames', 'OculusQuest_Sverige', 'OculusQuestGerman']
+Number of failed subreddits: 15
+
+Number of posts extracted for each parent company = {'Apple': 350, 'Microsoft': 511, 'Alphabet': 241, 'Amazon': 358, 'Nvidia': 575, 'Tesla': 342, 'Meta': 256}
+Total number of posts = 2633
+
+Failed post comments = ['1c7wolg', '1c84nwh']
+Number of failed post comments: 15
+
+Number of comments extracted for each parent company = defaultdict(<class 'int'>, {'Apple': 754, 'Microsoft': 1062, 'Alphabet': 458, 'Amazon': 783, 'Nvidia': 1330, 'Tesla': 840, 'Meta': 527})
+Total number of comments = 5754
+
+Failed posts while importing = ['1c8akd0', '1c821gw']
+Failed comments while importing = ['l09bdqb', 'l0banx0', 'l0a6hl8', 'l09b7vd', 'l08bakp', 'l0d0hvo', 'l0au79t']
